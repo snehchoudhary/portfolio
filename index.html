@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/0036c4ba17.js" crossorigin="anonymous"></script>
+</head>
+<body>
+   
+    
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="" class="">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark menu-icon" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars menu-icon" onclick="openmenu()"></i>
+            </nav>
+
+            <div class="header-text">
+            <p><b>Frontend Developer</b></p>
+            <h1>Hi, I’m <span>Sneha</span><br>A creative and detail-oriented Frontend Developer.</h1>
+        </div>
+        </div>
+    </div>
+
+
+    <!-- About -->
+     <section class="about-section">
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="img-3.jpg" alt="">
+                </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>I'm a passionate frontend developer currently pursuing my B.Tech in Information Technology. I love bringing designs to life with clean, responsive code and enjoy working with modern web technologies like HTML, CSS, JavaScript, and React. I'm constantly learning, exploring new tools, and building projects that blend creativity with functionality.</p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('projects')">Projects</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+
+                        <div class="tab-content active-tab" id="skills">
+                            <ul>
+                            <li><span>Frontend Development </span><br>Proficient in React, HTML5, CSS3, JavaScript (ES6+), and responsive design principles.</li>
+
+                            <li><span>UI/UX</span><br>Knowledge of creating clean and intuitive user interfaces with a focus on user experience.</li>
+
+                            <li><span>Programming Languages</span><br>Strong foundation in C++ with a solid understanding of Data Structures and Algorithms.</li>
+
+                            <li><span>Backend(Basic)</span><br>Familiar with .NET Core fundamentals and RESTful API concepts.</li>
+
+                            <li><span>Tools & Technologies</span><br>VS Code, Chrome DevTools, npm,Postman, Figma(basic).</li>
+                        </ul>
+                        </div>
+
+                        <div class="tab-content" id="projects">
+                         <ul>
+                            <li><span>Gemini Chatbot</span><br>An interactive AI-powered chatbot designed to simulate human-like conversations and provide instant responses. Built using HTML, CSS, and JavaScript, Gemini offers a smooth, responsive user interface and handles basic queries efficiently. The project demonstrates core frontend development skills, DOM manipulation, event handling, and a clean UI/UX design approach.</li>
+
+                            <li><span>Coffee Shop Website</span><br>A visually appealing and fully responsive website designed for a fictional coffee shop. Developed using HTML, CSS, and JavaScript, the site features a modern layout with sections for the menu, about us, contact, and customer reviews. Emphasis was placed on smooth navigation, responsive design, and aesthetic UI elements to deliver an engaging user experience across all devices.</li>
+
+                            <li><span>Code Vox – Hackathon Project (Digital Jam)</span><br>Code Vox is an innovative web application developed during the Digital Jam Hackathon that converts voice commands into code snippets in real time. Built using HTML, CSS, and JavaScript with Web Speech API integration, the project aims to enhance coding accessibility and productivity through hands-free interaction. This team project highlights strong collaboration, creative problem-solving, and practical implementation of voice recognition in development workflows.</li>
+                         </ul>
+                        </div>
+
+                        <div class="tab-content" id="education">
+                            <ul>
+                                <li><span>B.Tech in Information Technology</span><br>BPSMV,Sonipat</li>
+                            
+                            <li><span>Higher Secondary (12th Grade)</span><br>DAV Public School <br>CBSE</li>
+                        
+                        <li><span>Secondary (10th Grade)</span><br>DAV Public School <br>CBSE</li></ul>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Services -->
+     <section class="services-section">
+     <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <h2>Responsive Web Development</h2>
+                    <p>Building clean, mobile-friendly websites using HTML, CSS, JavaScript, and React.</p>
+                    <a href="#">Learn more</a>
+                </div>
+
+                <div>
+                    <h2>Single Page Applications</h2>
+                    <p>Developing fast and dynamic SPAs with React and React Router.</p>
+                    <a href="#">Learn more</a>
+                </div>
+
+                <div>
+                    <h2>UI Implementation</h2>
+                    <p>Translating UI/UX designs into pixel-perfect, functional interfaces.</p>
+                    <a href="#">Learn more</a>
+                </div>
+
+                <div>
+                    <h2>API Integration</h2>
+                    <p>Connecting frontend interfaces with RESTful APIs for dynamic data rendering.</p>
+                    <a href="#">Learn more</a>
+                </div>
+
+                <div>
+                    <h2>Theme Support</h2>
+                    <p>Implementing light/dark themes with smooth toggling.</p>
+                    <a href="#">Learn more</a>
+                </div>
+
+                <div>
+                    <h2>Code Optimization and Bug Fixing.</h2>
+                    <p>Enhancing peerformance, readability, and fixing frontend issues.</p>
+                    <a href="#">Learn more</a>
+                </div>
+
+                <div>
+                    <h2>Portfolio & Resume Sites</h2>
+                    <p>Designing peersonal websites for individuals and freelancers.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+     </div>
+    </section>
+
+     <!-- Portfolio -->
+      <section class="portfolio-section">
+      <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="Gemini Chatbot.png" >
+                    <div class="layer">
+                        <h3>Gemini Chatbot</h3>
+                        <p>An AI-powered chatbot with sleek dark mode interface.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="Coffee Shop Website.png">
+                    <div class="layer">
+                        <h3>Coffee Shop Website</h3>
+                        <p>A responsive and visually appealing website designed for a fictional coffee shop.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="Code Vox.png">
+                    <div class="layer">
+                        <h3>CodeVox-Hackathon Project</h3>
+                        <p>A voice-to-code web app developed during the Digital Jam Hackathon using speech recognition for hands-free coding.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <a href="#" class="btn">See more</a>
+        </div>
+      </div>
+    </section>
+
+      <!-- Contact -->
+       <section class="contact-section">
+       <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    
+                    <p><i class="fa-solid fa-paper-plane"></i>snehachoudhary4921@gmail.com</p>
+                    <p><i class="fa-brands fa-github"></i><a href="https://github.com/snehchoudhary" target="_blank">https://github.com/snehchoudhary</a></p>
+                    <p><i class="fa-brands fa-linkedin"></i><a href="https://www.linkedin.com/in/sneha-choudhary-58a5552a8" target="_blank">www.linkedin.com/in/sneha-choudhary-58a5552a8</a></p>
+                    <p><i class="fa-solid fa-square-phone-flip"></i>8588069829</p>
+                    <a href="Sneha Resume.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+        <!-- Footer -->
+         <div class="copyright">
+            <p>Copyright © 2025 Sneha - Crafted with 💻 and ☕</p>
+         </div>
+       </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-content");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+
+<!-- Deployment -->
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzjsjNFpAHYNFfBPCD62Nlr_oOKmYBlbAprb8_ory3dORg_BmvM4m7E0hGcVaJfEJW2Ag/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {msg.innerHTML = "Message Sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
